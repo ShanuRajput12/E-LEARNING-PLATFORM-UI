@@ -1,4 +1,15 @@
 # EduTech - E-Learning Platform
+COMPANY: CODE TECH IT SOLUTIONS
+
+*NAME*: SHANU RAJPUT
+
+*INTERN ID*: CT04DH2707
+
+*DOMAIN*: FRONT END DEVELOPMENT
+
+*DURATION*: 4 WEEKS
+
+*MENTOR*: NEELA SANTOSH
 
 A modern, responsive e-learning platform built with HTML, CSS, and JavaScript. This project demonstrates a comprehensive front-end interface for an educational platform with course listing, progress tracking, and video embedding capabilities.
 
@@ -170,4 +181,5 @@ This project is created for educational purposes as part of the CODTECH internsh
 <img width="1901" height="966" alt="Image" src="https://github.com/user-attachments/assets/91465775-ac32-4d41-acd6-fc124e2fe460" />
 <img width="1881" height="946" alt="Image" src="https://github.com/user-attachments/assets/f668267d-4115-414d-be7b-8bf5b68031ec" />
 <img width="1916" height="911" alt="Image" src="https://github.com/user-attachments/assets/65e192ac-bc90-4e8b-9c1d-eb4c5206f388" />
+
 
