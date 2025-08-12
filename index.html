@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTech - E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>EduTech</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#courses" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#progress" class="nav-link">Progress</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#profile" class="nav-link">Profile</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to EduTech</h1>
+            <p>Master new skills with our comprehensive e-learning platform</p>
+            <button class="cta-button">Start Learning</button>
+        </div>
+        <div class="hero-image">
+            <i class="fas fa-laptop-code"></i>
+        </div>
+    </section>
+
+    <!-- Course Categories -->
+    <section class="categories">
+        <h2>Popular Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <i class="fas fa-code"></i>
+                <h3>Programming</h3>
+                <p>Learn coding languages</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-palette"></i>
+                <h3>Design</h3>
+                <p>Master design tools</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Business</h3>
+                <p>Develop business skills</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-language"></i>
+                <h3>Languages</h3>
+                <p>Learn new languages</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section id="courses" class="courses">
+        <h2>Featured Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="https://via.placeholder.com/300x200/4A90E2/FFFFFF?text=Web+Development" alt="Web Development">
+                    <div class="course-overlay">
+                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                    </div>
+                </div>
+                <div class="course-content">
+                    <h3>Complete Web Development Bootcamp</h3>
+                    <p>Learn HTML, CSS, JavaScript and build real projects</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 40 hours</span>
+                        <span><i class="fas fa-user"></i> 2.5k students</span>
+                        <span><i class="fas fa-star"></i> 4.8</span>
+                    </div>
+                    <div class="course-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 65%"></div>
+                        </div>
+                        <span>65% Complete</span>
+                    </div>
+                    <button class="course-btn">Continue Learning</button>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="https://via.placeholder.com/300x200/50C878/FFFFFF?text=Python+Programming" alt="Python Programming">
+                    <div class="course-overlay">
+                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                    </div>
+                </div>
+                <div class="course-content">
+                    <h3>Python for Beginners</h3>
+                    <p>Master Python programming from basics to advanced</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 35 hours</span>
+                        <span><i class="fas fa-user"></i> 1.8k students</span>
+                        <span><i class="fas fa-star"></i> 4.9</span>
+                    </div>
+                    <div class="course-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 30%"></div>
+                        </div>
+                        <span>30% Complete</span>
+                    </div>
+                    <button class="course-btn">Continue Learning</button>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="https://via.placeholder.com/300x200/FF6B35/FFFFFF?text=UI+UX+Design" alt="UI/UX Design">
+                    <div class="course-overlay">
+                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                    </div>
+                </div>
+                <div class="course-content">
+                    <h3>UI/UX Design Masterclass</h3>
+                    <p>Create beautiful and functional user interfaces</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 25 hours</span>
+                        <span><i class="fas fa-user"></i> 1.2k students</span>
+                        <span><i class="fas fa-star"></i> 4.7</span>
+                    </div>
+                    <div class="course-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <span>Not Started</span>
+                    </div>
+                    <button class="course-btn">Start Course</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Section -->
+    <section id="progress" class="progress-section">
+        <h2>Your Learning Progress</h2>
+        <div class="progress-container">
+            <div class="progress-card">
+                <h3>Overall Progress</h3>
+                <div class="circular-progress">
+                    <div class="progress-circle">
+                        <span class="progress-number">78%</span>
+                    </div>
+                </div>
+                <p>You're doing great! Keep up the momentum.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <i class="fas fa-book-open"></i>
+                    <h4>Courses Enrolled</h4>
+                    <span>12</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>Certificates Earned</h4>
+                    <span>8</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>Hours Learned</h4>
+                    <span>156</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-trophy"></i>
+                    <h4>Achievements</h4>
+                    <span>15</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Player Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="video-container">
+                <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EduTech</h3>
+                <p>Empowering learners worldwide with quality education.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#progress">Progress</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@edutech.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EduTech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
