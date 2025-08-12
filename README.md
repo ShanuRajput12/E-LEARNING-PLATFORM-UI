@@ -166,7 +166,8 @@ Edit `styles.css` to customize:
 ## License
 
 This project is created for educational purposes as part of the CODTECH internship program.
+*OUTPUT*:
+<img width="1901" height="966" alt="Image" src="https://github.com/user-attachments/assets/91465775-ac32-4d41-acd6-fc124e2fe460" />
+<img width="1881" height="946" alt="Image" src="https://github.com/user-attachments/assets/f668267d-4115-414d-be7b-8bf5b68031ec" />
+<img width="1916" height="911" alt="Image" src="https://github.com/user-attachments/assets/65e192ac-bc90-4e8b-9c1d-eb4c5206f388" />
 
----
-
-**Created for CODTECH Internship Task -4: E-Learning Platform UI**
